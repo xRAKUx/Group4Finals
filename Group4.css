@@ -167,20 +167,22 @@ body
 
 /*------------forms-----------*/
 
-#forms
-{
-    text-align: center;
-    background-image: linear-gradient(gray, black);
-    color: white;
-    padding: 20px;
-    padding top: 60px;
-    padding bottom: 30px;
-}
+
 .container
 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#forms
+{
+    background-image: linear-gradient(gray, black);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding top: 60px;
+    padding bottom: 30px;
+   
 }
 
 /*------------footer------------*/
