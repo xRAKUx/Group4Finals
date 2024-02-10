@@ -167,13 +167,6 @@ body
 
 /*------------forms-----------*/
 
-
-.container
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #forms
 {
     background-image: linear-gradient(gray, black);
@@ -184,6 +177,13 @@ body
     padding bottom: 30px;
    
 }
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*------------footer------------*/
 
