@@ -2,20 +2,31 @@
 {
     margin: 0;
     padding: 0;
+    overflow-x: hidden
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+::-webkit-scrollbar-button
+{
+    display: none
 }
 body
 {
     font-family: sans-serif;
+    -ms-overflow-style:none
 }
+
 #navbar
 {
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
 .navbar
 {
-    background-image: linear-gradient(to right, gray , black);
+    background-image: linear-gradient(to right, black , gray);
     padding-left: 50px !important;
 }
 .navbar-brand
